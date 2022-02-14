@@ -189,22 +189,45 @@ li a:hover {
 
 
 .morse {
-  padding-left: 20px;
+  padding-left: 30px;
   padding-top: 50px;
   float: left;
   height: 100px;
   width: 100px;
 }
+.morse2 {
+  padding-right: 310px;
+  padding-top: 500px;
+  float: right;
+  height: 100px;
+  width: 100px;
+}
+
+.containermorse:hover .image {
+  opacity: 0.3;
+}
+
+.containermorse:hover .middle {
+  opacity: 1;
+}
 
 .justify {
   text-align: justify;
-  float: right;
   position: relative;
-  right: 400px;
-  top: 140px;
   font-size: 30px;
   color: black;
   font-weight: bold;
+  padding-top: 190px;
+  padding-left: 490px;
+  }
+.justify2 {
+  text-align: justify;
+  position: relative;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  padding-top: 340px;
+  padding-left: 450px;
   }
 
 
@@ -266,11 +289,6 @@ footer {
 
 /* universal styles*/
 
-.containermorse {
-  position: relative;
-  width: 50%;
-}
-
 .image {
   opacity: 1;
   display: block;
@@ -289,14 +307,6 @@ footer {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.containermorse:hover .image {
-  opacity: 0.3;
-}
-
-.containermorse:hover .middle {
-  opacity: 1;
 }
 
 .text {
