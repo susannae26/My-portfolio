@@ -1,0 +1,45 @@
+{% include "header.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+<body class="aboutbod">
+<p class="fixed">SE</p>
+<div class="back">
+<h1>About Me</h1>
+  <img class="me" src="static/me.jpeg">
+</div>
+  <p class="p">My name is Susanna.
+    I am a computer programmer and web designer.
+    I enjoy traveling, reading, and spending time with my animals.
+<br>
+    <br>
+    My journey  in programming began by finding an online web course on HTML and CSS.
+    I also downloaded a few different apps from which I learned some programming basics and techniques.
+    My love, however, really blossomed when I found Python.
+    I began taking an online course on Udemy by Dr. Angela Yu.
+    She completely brought the language to life with coding projects and explanations that made the language easy to understand and enjoyable.
+    After this, I can't seem to put my projects down and find myself lost hours later learning
+      the ins and outs of python. My passion includes discovering the ways the programs I create
+      can make my life and the lives of the people who use them easier and less wasteful.
+      <br>
+      <br>
+      As well as my passion for programming, I am an experienced photographer. In my travels to places like Paris, Barcelona, Rome, etc.,
+      I have had the pleasure of capturing a lot of the beauty they have to offer. I have a 5+ years experience in photoshop.
+      <br>
+      <br>
+
+<form action="mailto:susanna.ensley@yahoo.com"
+method="POST"
+enctype="multipart/form-data"
+name="EmailForm">
+    Name:<br>
+    <input type="text" size="30" name="Contact-Name"><br><br>
+    Email:<br>
+    <input type="email" size="30" name="Contact-Email"><br><br>
+    Message:<br>
+    <textarea name="Contact-Message" rows="6" cols="30"></textarea><br><br>
+    <button type="submit" value="Submit">Send</button>
+</form>
+
+</body>
+
+{% include "footer.html" %}

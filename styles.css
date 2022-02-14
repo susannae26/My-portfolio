@@ -1,0 +1,309 @@
+* {
+  box-sizing:border-box
+}
+
+/* header styles*/
+.nav {
+width: 1440px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #333;
+  }
+
+li {
+  float: left;
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+li a:hover {
+  background-color: #111;
+  }
+
+/* footer styles*/
+.footer {
+  background-image: url("hangy.jpeg");
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #DCDCDC;
+  color: black;
+  text-align: center;
+  height: 70px;
+  font-size: 25px;
+  padding-top: 10px;
+  }
+
+/* index.html styles*/
+
+.index {
+  font-size: 25px;
+  text-align: justify;
+  padding:50px;
+  padding-top:70px;
+  }
+
+.container {
+  background-color: black;
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.8);
+  color: #f1f1f1;
+  width: 1440px;
+  bottom: 20px;
+  height: 100px;
+}
+
+.fixed {
+  position: fixed;
+  top: 50px;
+  left: 1300px;
+  font-size: 40px;
+  color: black;
+  font-family: cursive;
+  background-size: cover;
+  }
+.store {
+  position: relative;
+  height: 600px;
+  width: 1440px;
+  }
+
+.hotel {
+  float: left;
+  box-shadow: 10px 10px 5px black;
+  margin: 20px;
+  margin-top: 80px;
+  }
+
+.index2 {
+  font-size: 25px;
+  text-align: justify;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  padding-right: 50px;
+  }
+
+.windows {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  padding-top: 10px;
+  float: right;
+  box-shadow: 10px 10px 5px black;
+}
+
+.index3 {
+  font-size: 25px;
+  text-align: justify;
+  padding: 50px;
+  padding-top: 50px;
+
+  }
+.index4 {
+  font-size: 25px;
+  text-align: justify;
+  padding: 50px;
+  padding-top: 120px;
+}
+
+/* resume.html styles*/
+.shiny {
+  padding: 0px;
+  padding-left: 0px;
+  margin: 0;
+  }
+.coffee {
+  float: left;
+  box-shadow: 10px 10px 5px black;
+  margin: 20px;
+  margin-top: 80px;
+  }
+.list2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  float: left;
+  text-align: left;
+  margin: 20px;
+
+  }
+
+.container .resume {
+  position: absolute;
+  color: white;
+  background-color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 1440px;
+  height: 100px;
+  bottom: 20px;
+  }
+
+.resume1 {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: black;
+  font-weight: bold;
+  text-align: justify;
+  font-size: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+.education {
+  background-color: white;
+  background-size: cover;
+  color: black;
+  margin: 20px;
+  padding-bottom: 10px;
+  padding: 40px;
+  }
+
+
+/* portfolio.html styles*/
+
+.home {
+  width: 1440px;
+  height: 600px;
+  }
+
+
+.morse {
+  padding-left: 20px;
+  padding-top: 50px;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.justify {
+  text-align: justify;
+  float: right;
+  position: relative;
+  right: 400px;
+  top: 140px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  }
+
+
+/* about.html styles*/
+.back {
+  background-image: url("branch.jpeg");
+  background-color: #cccccc;
+  background-size: cover;
+  padding-right: 100px;
+  }
+.me {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  float: right;
+  box-shadow: 10px 10px 5px black;
+  }
+form {
+  float: center;
+  width: 1200px;
+  padding-left: 100px;
+  padding-bottom: 110px;
+  }
+
+/* universal styles*/
+
+body {
+  background-color: grey;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  max-width: 1440px;
+  padding-bottom: 100px;
+  }
+
+.p {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  text-align: justify;
+  font-size: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  padding-left: 20px;
+  }
+
+head {
+  position: relative;
+  background-size: cover;
+  }
+
+footer {
+  background-size: cover;
+  }
+
+/* universal styles*/
+
+.containermorse {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containermorse:hover .image {
+  opacity: 0.3;
+}
+
+.containermorse:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
